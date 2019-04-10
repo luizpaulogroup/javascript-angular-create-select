@@ -1,10 +1,5 @@
 angular.module("ibus", []);
 angular.module("ibus").controller("ibusController", ['$scope', '$http', function ($scope, $http){
-   
-    // Profile on Github
-    // $http.get('https://api.github.com/users/LuizPauloLPG2').then(function(data){  
-    //     console.log(data);
-    // }); 
     
     $http({
         method: 'GET',
